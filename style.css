@@ -29,14 +29,6 @@ a:hover, a:focus {
     fill: #fff;
 }
 
-/*.logo-svg {
-    float: left;
-    margin: 4px;
-}
-.logo-label {
-    display: none;
-} */
-
 .more-svg {
     display: block;
 }
@@ -70,6 +62,16 @@ a:hover, a:focus {
     padding: 0 8px;
 }
 
+/*.logo-svg {
+    float: left;
+    margin: 4px;
+} */
+
+.logo-label {
+    /* display: none; */
+    padding: 0 16px;
+}
+
 .header {
     position: relative;
     display: flex;
@@ -86,7 +88,7 @@ a:hover, a:focus {
     width: 100%;
     height: 100%;
     z-index: -1;
-    background-image: url(https://source.unsplash.com/featured?nature);
+    background-image: url(https://source.unsplash.com/collection/327760/1920x1080);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -156,6 +158,7 @@ a:hover, a:focus {
 
 .section-image {
     padding-top: 75%;
+    background-color: #ddd;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
